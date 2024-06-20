@@ -6,12 +6,12 @@
 
 .banner-section {
   padding: 20px 50px;
-  background-image: url("images/background/watercolor.png");
+  background-image: url("/images/background/watercolor.png");
   min-height: 100vh;
 }
 
 .wish-section {
-  background-image: url("images/background/sakura.png");
+  background-image: url("/images/background/sakura.png");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +20,7 @@
 }
 
 .gallery-section {
-  background-image: url("images/background/let-there-be-sun.png");
+  background-image: url("/images/background/let-there-be-sun.png");
   padding: 5em;
 }
 
