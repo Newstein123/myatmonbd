@@ -64,7 +64,7 @@ const GiftCard = () => {
     const url = filteredItem[0].imageUrl;
 
     try {
-      const res = await fetch("http://localhost:4000/send-gift", {
+      const res = await fetch("https://myatmonbd.vercel.app/send-gift", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

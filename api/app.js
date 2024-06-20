@@ -4,7 +4,6 @@ const cors = require("cors");
 require("dotenv").config();
 const transporter = require("./lib/mailer");
 const app = express();
-const port = process.env.PORT_NUMBER;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -57,6 +56,6 @@ app.post("/send-gift", (req, res) => {
   main().catch(console.error);
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });

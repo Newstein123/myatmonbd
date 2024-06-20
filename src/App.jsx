@@ -17,7 +17,9 @@ function App() {
             <div className="banner">
               <div className="text-effect">
                 {/* header  */}
-                <h1>Happy Birthday</h1>
+                <h1>
+                  Happy 25 <sup> th </sup> Birthday
+                </h1>
                 <h2
                   style={{
                     color: "pink",
