@@ -17,7 +17,7 @@ const WishForm = () => {
     }
     setLoading(true);
     try {
-      const res = await fetch("https://myatmonbd.vercel.app/send-email", {
+      const res = await fetch("https://myatmonbd-api.vercel.app/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
