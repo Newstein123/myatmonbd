@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Teddy Bear",
+        "description": "A cute and cuddly teddy bear.",
+        "imageUrl": "images/teddy-bear.png"
+    },
+    {
+        "id": 2,
+        "name": "Box of Chocolates",
+        "description": "A delicious box of assorted chocolates.",
+        "imageUrl": "images/chocolate.png"
+    },
+    {
+        "id": 3,
+        "name": "Flower Bouquet",
+        "description": "A beautiful bouquet of fresh flowers.",
+        "imageUrl": "images/flower.png"
+    },
+    {
+        "id": 4,
+        "name": "Personalized Necklace",
+        "description": "A necklace with a personalized pendant.",
+        "imageUrl": "images/necklace.png"
+    },
+    {
+        "id": 5,
+        "name": "Scented Candles",
+        "description": "A set of beautifully scented candles.",
+        "imageUrl": "images/candles.png"
+    },
+    {
+        "id": 6,
+        "name": "Perfume",
+        "description": "A bottle of premium perfume.",
+        "imageUrl": "images/perfume.png"
+    },
+    {
+        "id": 7,
+        "name": "Jewelry Box",
+        "description": "A beautiful box to store jewelry.",
+        "imageUrl": "images/jewllery.png"
+    },
+    {
+        "id": 8,
+        "name": "Skincare Kit",
+        "description": "A comprehensive skincare kit.",
+        "imageUrl": "images/skincare.png"
+    },
+    {
+        "id": 9,
+        "name": "Hair Accessory Set",
+        "description": "A set of stylish hair accessories.",
+        "imageUrl": "images/hairset.png"
+    },
+    {
+        "id": 10,
+        "name": "Beautiful Skirt",
+        "description": "A set of stylish hair accessories.",
+        "imageUrl": "images/skirt.png"
+    }
+]
