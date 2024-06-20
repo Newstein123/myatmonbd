@@ -42,7 +42,7 @@ app.post("/send-gift", (req, res) => {
       to: process.env.SENDER_ADDRESS,
       subject: `${name} sent you a gift.`, // Subject line
       html: `<p> Hey I sent you a gift for you. Hope you like it.  </p>
-        <img src="http://localhost:3000/${url}" alt="gift" width="400" height="300" />
+        <img src="${process.env.APP_URL}/${url}" alt="gift" width="400" height="300" />
         `,
     });
 
