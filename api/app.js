@@ -59,7 +59,7 @@ app.post("/send-gift", (req, res) => {
   }
   main().catch(console.error);
 });
-
-app.listen(process.env.PORT || 4000, () => {
+const port = process.env.PORT;
+app.listen(port || 4000, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
