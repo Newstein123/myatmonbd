@@ -4,8 +4,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
-    "build": "[my-framework] build --output public"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
